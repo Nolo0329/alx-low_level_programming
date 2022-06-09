@@ -1,14 +1,23 @@
 #include "main.h"
-#include <stdio.h>
+#include <ctype.h>
 
 /**
- * _isupper -Find if a given letter is uppercase
- * @c: the given letter
+ * _isupper - function that checks for alphabetic character
  *
- * Return: Return 1 if c is uppercase, 0 if otherwise
+ * @c: return char type
+ *
+ * Return: return 0 on success and 1 on fail
  */
+
+int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	int i = isupper (c);
+	if (i > 0)
+	{
 		return (1);
-	return (0);
+	}
+	else 
+	{
+		return (0);
+	}
 }
