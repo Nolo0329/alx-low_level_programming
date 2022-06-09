@@ -1,16 +1,13 @@
 #include "main.h"
 
 /**
- * print_line - Print line dependent on the interger n.
- * @n: The number of '_' characters to use
- * Return: Void.
+ * print_line - prints a straight line
+ * @n: parameter
+ * Return: return nothing
  */
-
 void print_line(int n)
 {
-	int = i
-
-	for (i = 0; i < n; i++)
+	while (n-- > 0)
 	{
 		_putchar('_');
 	}
