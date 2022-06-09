@@ -1,26 +1,18 @@
 #include "main.h"
 
 /**
- * print_line - prints straight line
- *
- * @n: retuned integer
+ * print_line - Print line dependent on the interger n.
+ * @n: The number of '_' characters to use
+ * Return: Void.
  */
 
 void print_line(int n)
 {
-	int = i = 0;
+	int = i
 
-	while (i < n)
+	for (i = 0; i < n; i++)
 	{
-		if (n <= 0)
-		{
-			_putchar('\n');
-		}
-		else
-		{
-			_putchar('_');
-		}
-		i++;
+		_putchar('_');
 	}
 	_putchar('\n');
 }
