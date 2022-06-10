@@ -1,26 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - prime numbers
+ * main - calculate largest prime of 612852475143
  *
- * Return: 0
+ * Return: Success Always
  */
 
 int main(void)
 {
-	long num = 612852475143;
-	long divisor = 2;
-	long larg_prim = 0;
+	long int x =612852475143;
+	long int py;
 
-	while (num != 1)
+	for (py = 2; py < x; py++)
 	{
-		if (num % divisor == 0)
+		if (x % py == 0)
 		{
-			num = num / divisor;
-			large_prim = divisor;
+			x = x / py;
 		}
-		divisor += 1;
 	}
-	printf("%d\n", larg_prim);
+	printf("%1d\n", py);
 	return (0);
 }
