@@ -22,7 +22,7 @@ void rev_string(char *s)
 	while (s > t)
 	{
 		s--;
-		*s = n{c};
+		*s = n[c];
 		c++;
 	}
 }
