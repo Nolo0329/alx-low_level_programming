@@ -26,5 +26,5 @@ int _atoi(char *s)
 			break;
 	}
 	res = sig * res;
-	returm (res);
+	return (res);
 }
