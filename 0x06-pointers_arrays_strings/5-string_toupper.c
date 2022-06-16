@@ -7,7 +7,7 @@
  * Return; *s
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int i;
 
@@ -17,5 +17,5 @@ char *string_toupper(char *)
 			s[i] -= 32;
 	}
 
-	retturn (s);
+	return (s);
 }
