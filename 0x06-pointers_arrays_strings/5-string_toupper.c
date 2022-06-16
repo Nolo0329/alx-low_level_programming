@@ -4,7 +4,7 @@
  * *string_toupper - lowercase to uppercase
  * @s: - pointer to int params
  *
- * Return; *s
+ * Return: *s
  */
 
 char *string_toupper(char *s)
