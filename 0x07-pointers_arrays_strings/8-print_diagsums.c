@@ -1,4 +1,4 @@
-#indlude "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -16,6 +16,6 @@ void print_diagsums(int *a, int size)
 		sum1 += *(a + (size * i + i));
 		sum2 += *(a + (size * i + size - 1 - i));
 	}
-	print("%d, ", sum1);
+	printf("%d, ", sum1);
 	printf("%d\n", sum2);
 }
